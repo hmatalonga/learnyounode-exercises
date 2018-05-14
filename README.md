@@ -1,2 +1,2 @@
-# learnyounode-exercises
-learnyounode exercises for learning purposes
+# learnyounode exercises
+learnyounode exercises for learning purposes.
