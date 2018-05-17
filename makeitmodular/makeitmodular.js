@@ -8,5 +8,8 @@ const ext = process.argv[3]
 
 mymodule(dirname, ext, (err, files) => {
   if (err) throw err
-  files.forEach(f => console.log(f))
+
+  for (let i = 0, len = files.length; i < len; i++) {
+    console.log(files[i])
+  }
 })
