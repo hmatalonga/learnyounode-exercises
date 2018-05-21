@@ -14,6 +14,5 @@ const listener = socket => {
   socket.end(`${new Date().toLocaleDateString('pt-PT', opts)}\n`)
 }
 
-const server = net.createServer(listener)
-
-server.listen(Number(process.argv[2]))
+net.createServer(listener)
+   .listen(Number(process.argv[2]))
